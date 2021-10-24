@@ -1,3 +1,4 @@
+
 # BinCat Token System
 > BinCat is an innovative login system, with which the account you register will be more secure. This project is inspired by a conventional token system.
 
@@ -8,7 +9,7 @@
 BinCat generates an ID of 10 numbers *(1234567890)*, the ID of each user will be encrypted in Base64, with a point it will separate 7 random letters and numbers between which there will be Uppercase and Lowercase, these at the same time will be separated by another point the actual date of creation of the token with it is going to be encrypted in Base64 too. The result is something like this: 
 `MTIzNDU2Nzg5MA ==. ADJrNnB.Jsw97Jhb29`
 
-![BinCat Code Example](/BinCat Demo.png)
+![BinCat Code Example](https://github.com/Hipotesi-Dev/BinCat/blob/main/BinCat%20Demo.PNG)
 
 ## Installation
 
