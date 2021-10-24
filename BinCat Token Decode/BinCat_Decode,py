@@ -1,0 +1,18 @@
+from base64 import b64decode
+from colorama import Fore, Style, init
+init(autoreset=True)
+
+gato1 = input(Fore.GREEN + 'Introduzca el Gato: ' + Style.RESET_ALL)
+gato = gato1.partition(".")
+gato2 = gato[2].partition(".")
+
+id = gato[0]
+fecha = gato2[2]
+numero = gato2[0]
+
+print(Fore.YELLOW + gato[0] + " | " + gato2[0] + " | " + gato2[2])
+print(Fore.GREEN + 'La ID del gato es: ')
+print(b64decode(id))
+print(Fore.GREEN + 'La fecha de creación del gato es: ')
+print(b64decode(fecha))
+print(Fore.GREEN + 'El número de identificación del gato es: ' + Style.RESET_ALL + Style.BRIGHT + numero)
