@@ -32,18 +32,18 @@ python BinCat.py
 * 1.5.2
     * CHANGE: Documentation Update (the code of the program is the same)
 * 1.5.1
-    * CODE COMPILED: I add some little modifications to the code, now is available to compile it with out errors.
+    * CODE COMPILED: I add some little modifications to the code, now is available to compile it without errors.
 * 1.5.0
     * CLEAN CODE: The unuseful code of BinCat have been removed
 * 0.1.0 - 1.5.0
-    * Bildin BinCat System
+    * Building BinCat System
     * Improving the code`
 * 0.0.1
     * Working on BinCat
 
 ## Credits
 
-Distribute under the Apache2.0 Licence. See ``LICENSE`` for more information.
+Distribute under the Apache2.0 License. See ``LICENSE`` for more information.
 
 [BinCat Open-Source Project](https://github.com/Hipotesi-Dev/BinCat)
 
