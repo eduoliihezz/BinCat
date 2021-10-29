@@ -19,6 +19,7 @@ import random
 from colorama import Fore, Style, init
 import base64
 import time
+import qrcode
 
 # Declaramos todas las veriables
 fecha = time.strftime("%d-%m-%y %X")
@@ -62,6 +63,14 @@ for c in range(1):
     print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'El Gato para ' + Style.BRIGHT + username + ' es: ' + Fore.YELLOW + gato)
     print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'La ID del usuario ' + Style.BRIGHT + username + ' es: ' + Fore.YELLOW + part1)
     print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'La Fecha de creación del Gato es el: ' + Fore.YELLOW + fecha)
+
+# Preguntamos si quiere un QR con el Token
+
+data = gato
+filename = 'BinCat_Token.png'
+img = qrcode.make(data)
+img.save(filename)
+print(Fore.GREEN + '[+]' + 'Token guardado como QR')
 
 # Estas dos lineas es para adaptar el programa a un ejecutable .exe
 exit = input('Pulse enter para salir...')

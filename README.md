@@ -29,6 +29,8 @@ python BinCat.py
 ```
 
 ## Version history
+* 1.6.0
+    * UPDATE: Now BinCat save the token in a QR code (.png inside the path where the program is running)
 * 1.5.2
     * CHANGE: Documentation Update (the code of the program is the same)
 * 1.5.1
