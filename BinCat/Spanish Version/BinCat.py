@@ -42,19 +42,19 @@ for c in range(1):
 ##########################################################################
 
     # Juntamos todas las partes
-    gato = part1encode + "." + part2 + "." + part3encode
+    token = part1encode + "." + part2 + "." + part3encode
 
-    # Mostramos el Gato creado
-    print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'El Gato para ' +
-          Style.BRIGHT + username + ' es: ' + Fore.YELLOW + gato)
+    # Mostramos el Token creado
+    print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'El Token para ' +
+          Style.BRIGHT + username + ' es: ' + Fore.YELLOW + token)
     print(Fore.BLUE + '[?] ' + Style.RESET_ALL + 'La ID del usuario ' +
           Style.BRIGHT + username + ' es: ' + Fore.YELLOW + part1)
     print(Fore.BLUE + '[?] ' + Style.RESET_ALL +
-          'La Fecha de creación del Gato es el: ' + Fore.YELLOW + fecha)
+          'La Fecha de creación del Token es el: ' + Fore.YELLOW + fecha)
 
 # Preguntamos si quiere un QR con el Token
 
-data = gato
+data = token
 filename = 'BinCat_Token.png'
 img = qrcode.make(data)
 img.save(filename)
