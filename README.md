@@ -4,13 +4,11 @@
 
 > BinCat is an innovative login system, with which the account you register will be more secure. This project is inspired by a conventional token system.
 
-  
+[![GitHub license](https://img.shields.io/github/license/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/network)
+[![GitHub stars](https://img.shields.io/github/stars/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/stargazers)
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Hipotesi-Dev/BinCat?style=flat-square)
-
-![GitHub](https://img.shields.io/github/license/Hipotesi-Dev/BinCat?style=flat-square)
-
-![GitHub all releases](https://img.shields.io/github/downloads/Hipotesi-Dev/BinCat/total?style=flat-square)
 
   
 
