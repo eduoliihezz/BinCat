@@ -7,9 +7,7 @@
   
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Hipotesi-Dev/BinCat?style=flat-square)
-
 ![GitHub](https://img.shields.io/github/license/Hipotesi-Dev/BinCat?style=flat-square)
-
 ![GitHub all releases](https://img.shields.io/github/downloads/Hipotesi-Dev/BinCat/total?style=flat-square)
 
   
