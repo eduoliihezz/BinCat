@@ -13,7 +13,9 @@ BinCat generates an ID of 10 numbers _(1234567890)_, the ID of each user will be
 # Screenshots
  <img src="https://github.com/Hipotesi-Dev/BinCat/blob/main/BinCat%20Demo.PNG">
 # Tech Used
- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
       
 ## 🛠 Installation
 
