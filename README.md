@@ -1,19 +1,21 @@
-# BinCat Token System
+<div align="center">
+      <h1> <img src="https://repository-images.githubusercontent.com/420671000/5d7994a7-0991-4257-a52b-b993e9443992" width="80px"><br/>BinCat Token System</h1>
+     </div>
+<p align="center"> <a href="http://hipotesi.org" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="@Hipotesi_dev" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="@_eduoliihezz" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-E4405F?style=normal&logo=instagram&logoColor=white" style="vertical-align:center" /></a> <a href="}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
-> BinCat is an innovative login system, with which the account you register will be more secure. This project is inspired by a conventional token system.
+# Description
+BinCat is an innovative login system, with which the account you register will be more secure. This project is inspired by a conventional token system.
 
-[![GitHub license](https://img.shields.io/github/license/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/network)
-[![GitHub stars](https://img.shields.io/github/stars/Hipotesi-Dev/BinCat?style=flat-square)](https://github.com/Hipotesi-Dev/BinCat/stargazers)
-
+# Features
 BinCat generates an ID of 10 numbers _(1234567890)_, the ID of each user will be encrypted in Base64, with a point it will separate 7 random letters and numbers between which there will be Uppercase and Lowercase, these at the same time will be separated by another point the actual date of creation of the token with it is going to be encrypted in Base64 too. The result is something like this:
 
 `MTIzNDU2Nzg5MA ==. ADJrNnB.Jsw97Jhb29`
-
-![BinCat Code Example](https://github.com/Hipotesi-Dev/BinCat/blob/main/BinCat%20Demo.PNG)
-
-## Installation
+# Screenshots
+ <img src="https://github.com/Hipotesi-Dev/BinCat/blob/main/BinCat%20Demo.PNG">
+# Tech Used
+ ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+      
+## 🛠 Installation
 
 Windows, OS X y Linux:
 
@@ -40,14 +42,25 @@ _Execute BinCat Token Generator_
 python BinCat.py
 
 ```
+## 🧬Version Notes
+BinCat updates and Notes and in the dropdown ⬇
 
-## Version history
+<br>
+<details open>
+<summary>📑 Version history</summary>
+<br>
 
+- 1.6.3
+  - UPDATE: The readme.md have been update to another more clear.
+- 1.6.2
+  - ADD: Added templates for issues
+  - ADD: Security.md have been created
+  - TESTED: QR code generator with the token 
 - 1.6.1
 
-  \*TRANSLATION: BinCat is now available in Spanish and English (I'm a Spanish developer, so the variables and other things can be in Spanish ^^)
+  - TRANSLATION: BinCat is now available in Spanish and English (I'm a Spanish developer, so the variables and other things can be in Spanish ^^)
 
-  \*REPLACE: Before BinCat token was named “Gato”. But now this is deleted, all variables, names, etc. Had been replaced by “Token”.
+  - REPLACE: Before BinCat token was named “Gato”. But now this is deleted, all variables, names, etc. Had been replaced by “Token”.
 
 - 1.6.0
 
@@ -74,8 +87,10 @@ python BinCat.py
 - 0.0.1
 
   - Working on BinCat
+</details>
 
-## Credits
+
+## ✍ Credits
 
 Distribute under the Apache2.0 License. See `LICENSE` for more information.
 
@@ -83,7 +98,7 @@ Distribute under the Apache2.0 License. See `LICENSE` for more information.
 
 ⌨ with ❤ by Hipotesi
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork it (<https://github.com/Hipotesi-Dev/BinCat/fork>)
 
@@ -94,3 +109,5 @@ Distribute under the Apache2.0 License. See `LICENSE` for more information.
 4. Push to the branch (`git push origin feature/fooBar`)
 
 5. Create a new Pull Request.
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+    
